@@ -121,7 +121,7 @@ body {
 
 .navigation  li ul a:hover{
   text-align: left;
-  color: #ffb142;
+  color: var(--mandarin-sorbet);
 }
 
 #banner {
@@ -295,7 +295,7 @@ header {
 
 .site-name .site-name__tag {
   display: flex;
-  background-color: #84817a;
+  background-color: var(--gray-porcelain);
   color: var(--white-text);
   font-size: .7rem;
   padding: 4px 6px;
@@ -324,7 +324,7 @@ header nav {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  border: 2px solid blue;
+  border: 2px solid gray;
   border-color: var(--gray-porcelain);
   margin-right: .8rem;
 }
